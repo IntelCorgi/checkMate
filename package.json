@@ -1,0 +1,31 @@
+{
+  "name": "checkmate",
+  "version": "1.0.0",
+  "description": "Intuitive Export Control",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "method-override": "^2.3.10",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "sequelize": "^4.18.0",
+    "sequelize-cli": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnf2015/checkMate.git"
+  },
+  "author": "rnf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnf2015/checkMate/issues"
+  },
+  "homepage": "https://github.com/rnf2015/checkMate#readme"
+}
