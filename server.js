@@ -33,7 +33,7 @@ app.set("view engine", "handlebars");
 var routes = require("./controllers/entities_controller");
 
 app.use("/", routes);
-//NOTE: "/" will be the landing / login page
+//NOTE: "/" will be the home page
 app.use("/login", routes);
 app.use("/home", routes);
 app.use("/screen", routes);
